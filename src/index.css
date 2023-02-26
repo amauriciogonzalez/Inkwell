@@ -1,0 +1,328 @@
+body
+{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #191c1d;
+}
+
+.app
+{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #223358;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 1.25);
+    z-index: 1;
+    font-size: 30px;
+    height: 70px;
+}
+
+.logo
+{
+    width: 70px;
+}
+
+nav > h3
+{
+    margin-right: auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+.icon
+{
+    width: 70px;
+    margin-right: 20px;
+    padding-right: 70px;
+    cursor: pointer;
+}
+
+.entryTypeButtonsContainer
+{
+    display: flex;
+    justify-content: center;
+}
+
+.entryTypeButtons
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #223358;
+    padding: 20px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.feelingRating
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+
+.feelingRatingTitle, .createJournalEntryTitle
+{
+    margin-top: 300px;
+}
+
+.ratingFace
+{
+    width: 100px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.continue
+{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50px;
+    width: 490px;
+    height: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.journalPage
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    letter-spacing: 0.3px;
+}
+
+.journalPage > div > h1
+{
+    margin-top: 300px;
+}
+
+.emotionList
+{
+    text-align: left;
+
+    align-items: center;
+    justify-content: center;
+    
+    width: 780px;
+    margin-bottom: 100px;
+    
+}
+
+.emotionListTitle
+{
+    text-align: left;
+}
+
+.emotions
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.emotions > h4
+{
+    font-size: 30px;
+}
+
+.emotionButton
+{
+
+    text-align: center;
+    margin-top: 30px;
+
+    width: 100%;
+    max-width: 25%;
+    height: 100%;
+    padding: 10px;
+    margin-left: 30px;
+    
+    color: red;
+    border: 2px solid red;
+    border-radius: 50px;
+
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+}
+
+.journalInputArea
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.journalInputArea > h1
+{
+    max-width: 1500px;
+}
+
+input[type=text]
+{
+    color: white;
+    border: none;
+    border-bottom: 10px solid #223358;
+    background: transparent;
+    font-size: 50px;
+    margin-top: 100px;
+    width: 800px;
+    padding: 10px 20px
+}
+
+.freeformPage
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+textarea
+{
+    color: white;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    padding: 20px;
+    width: 800px;
+    height: 500px;
+    resize: vertical;
+    font-family: Arial, Helvetica, sans-serif;
+
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+    border: 1px solid #223358
+}
+
+.noPreviousEntries
+{
+    text-align: center;
+    max-width: 1000px;
+    margin: 10% auto;
+    line-height: 150%;
+    letter-spacing: 0.3px;
+
+}
+
+.entryCard
+{
+    margin: 30px 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(15, 15, 15, 0.651);
+    box-shadow: 0px 10px 40px rgb(41, 40, 40);
+    border-radius: 155px;
+    height: 154px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.entryCardImage
+{
+    height: 150px;
+    margin-right: 20px;
+}
+
+.entryCardTitleAndTypeContainer
+{
+    text-align: left;
+    margin-right: auto;
+}
+
+.entryCardTitleAndTypeContainer > p
+{
+    margin-bottom: auto;
+}
+
+.entryCardTitle
+{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 45px;
+
+}
+
+.entryCardTimeContainer
+{
+    margin-right: 50px;
+}
+
+.entryDisplayPage
+{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 0.3px;
+    margin: 0px auto;
+    width: 1000px;
+}
+
+.entryDisplayTopLine
+{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.entryDisplayImg
+{
+    width: 100px;
+}
+
+.entryDisplayParagraph
+{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-bottom: 100px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+}
+
+.displayButtons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 10%;
+    margin-bottom: 50px;
+}
+
+.displayButton
+{
+    text-align: center;
+    background-color: red;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 100%;
+    max-width: 25%;
+    height: 100%;
+    padding: 15px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+

@@ -3,4 +3,6 @@ A React Application that functions as a cognitive behavioral therapy journal, ca
 
 
 
+
+## Preview
 ![Capture](https://user-images.githubusercontent.com/88101535/221429209-df37c2d5-2e22-4b8f-a839-2011d5ab3c49.PNG)
